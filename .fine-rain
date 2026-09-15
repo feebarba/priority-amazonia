@@ -1,0 +1,11 @@
+{
+  "project": "priority-amazonia",
+  "kind": "p5-published-build",
+  "defaults": {
+    "density": 1.2,
+    "attraction": 0.3,
+    "text": "#000000",
+    "background": "#ffffff"
+  },
+  "touchAction": "pan-y"
+}
