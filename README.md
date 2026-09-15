@@ -19,9 +19,9 @@ Use a URL do GitHub Pages como valor de `src`. Para ocupar o contêiner sem bord
 
 ```html
 <iframe
-  src="GITHUB_PAGES_URL"
+  src="https://feebarba.github.io/priority-amazonia/"
   title="Priority Amazonia"
-  style="width:100%;height:100%;border:0"
+  style="display:block;width:100%;height:600px;border:0;touch-action:pan-y"
   loading="lazy"
 ></iframe>
 ```
