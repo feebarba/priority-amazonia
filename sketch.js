@@ -190,7 +190,7 @@ new p5((p) => {
   }
   function attachInteraction() {
     canvasElement.addEventListener('pointermove', updatePointer);
-    canvasElement.addEventListener('pointerdown', (e) => { canvasElement.focus(); updatePointer(e); });
+    canvasElement.addEventListener('pointerdown', (e) => { canvasElement.focus({ preventScroll: true }); updatePointer(e); });
     canvasElement.addEventListener('pointerleave', () => { pointerInside = false; });
     canvasElement.addEventListener('pointercancel', () => { pointerInside = false; });
     canvasElement.addEventListener('pointerup', (e) => { if (e.pointerType !== 'mouse') pointerInside = false; });
